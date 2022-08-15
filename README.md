@@ -1,1 +1,1 @@
-# CMS-Employee-Tracker
+# CMS Employee Tracker (MySQL)
