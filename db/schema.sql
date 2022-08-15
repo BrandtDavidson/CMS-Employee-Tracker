@@ -4,7 +4,7 @@ These commands are still valid when in the terminal for >mysql
 
 % mysql -u root -p
 
-% use schema.sql
+% SOURCE db/schema.sql
 
 will run following commands
 */
