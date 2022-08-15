@@ -12,6 +12,13 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+// Needed to connect to our mySQL database as well as our mysql local server
 const db = mysql.createConnection(
-
-)
+    {
+        host: 'localhost',
+        user: 'root',
+        password: 'FooBar_1',
+        database: 'management_db'
+    },
+    console.log(`Now connected to: ${db.database}`)
+);
